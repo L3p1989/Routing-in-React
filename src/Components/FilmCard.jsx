@@ -8,7 +8,7 @@ const FilmCard = props => {
     <Col sm="6">
       <Card body>
         <CardTitle>
-          <Link to={"/films/" + id}>{title}</Link>
+          <Link to={"/Films/" + id}>{title}</Link>
         </CardTitle>
         <CardText>{description}</CardText>
       </Card>
