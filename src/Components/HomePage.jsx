@@ -5,7 +5,7 @@ class HomePage extends Component {
     return (
       <p>
         This has information on many Studio Ghibli films and the characters in
-        them
+        them, try clicking the links above!
       </p>
     );
   }
