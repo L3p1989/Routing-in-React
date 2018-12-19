@@ -12,7 +12,7 @@ class Film extends Component {
     fetch("https://ghibliapi.herokuapp.com/films/" + this.props.match.params.id)
       .then(res => res.json())
       .then(films => this.setState({ films }));
-  }
+  } //fetches film based on id
 
   render() {
     const {
