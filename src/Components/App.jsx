@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import Films from "./Films";
 import People from "./People";
 import logo from "./../assets/logo.png";
+import Film from "./Film";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
               <Route exact path="/" component={HomePage} />
               <Route exact path="/Films" component={Films} />
               <Route exact path="/People" component={People} />
+              <Route exact path="/Films/:id" component={Film} />
             </Switch>
           </>
         </Router>
