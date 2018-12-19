@@ -2,7 +2,12 @@ import React, { Component } from "react";
 
 class HomePage extends Component {
   render() {
-    return <h1>placeholder</h1>;
+    return (
+      <p>
+        This has information on many Studio Ghibli films and the characters in
+        them
+      </p>
+    );
   }
 }
 
