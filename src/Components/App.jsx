@@ -14,14 +14,14 @@ class App extends Component {
         </h1>
         <Router>
           <>
-            <Link to="/" className="m-2 ">
+            <Link to="/" className="m-2 btn btn-secondary">
               Home
             </Link>
-            <Link to="/Films" className="m-2">
+            <Link to="/Films" className="m-2 btn btn-secondary">
               Films
             </Link>
-            <Link to="/People" className="m-2">
-              People
+            <Link to="/People" className="m-2 btn btn-secondary">
+              Characters
             </Link>
             <Switch>
               <Route exact path="/" component={HomePage} />
